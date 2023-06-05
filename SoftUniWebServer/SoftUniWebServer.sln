@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniWebServer.Server", "SoftUniWebServer.Server\SoftUniWebServer.Server.csproj", "{FD27CD0C-22ED-4BA3-BD02-028A53EDA64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniWebServer.Demo", "SoftUniWebServer.Demo\SoftUniWebServer.Demo.csproj", "{0D2B19AA-E0B1-4A41-93BA-3C316F2581B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD27CD0C-22ED-4BA3-BD02-028A53EDA64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD27CD0C-22ED-4BA3-BD02-028A53EDA64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD27CD0C-22ED-4BA3-BD02-028A53EDA64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD27CD0C-22ED-4BA3-BD02-028A53EDA64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2B19AA-E0B1-4A41-93BA-3C316F2581B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2B19AA-E0B1-4A41-93BA-3C316F2581B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2B19AA-E0B1-4A41-93BA-3C316F2581B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2B19AA-E0B1-4A41-93BA-3C316F2581B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEC37126-C72B-469F-AF30-93E62A587759}
+	EndGlobalSection
+EndGlobal
