@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SoftUniWebServer.Demo/1.0.0": {
+        "dependencies": {
+          "SoftUniWebServer.Server": "1.0.0"
+        },
+        "runtime": {
+          "SoftUniWebServer.Demo.dll": {}
+        }
+      },
+      "SoftUniWebServer.Server/1.0.0": {
+        "runtime": {
+          "SoftUniWebServer.Server.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SoftUniWebServer.Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoftUniWebServer.Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
