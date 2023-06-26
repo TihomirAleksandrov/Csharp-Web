@@ -1,0 +1,15 @@
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\bin\Debug\net6.0\Chronometer.exe
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\bin\Debug\net6.0\Chronometer.deps.json
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\bin\Debug\net6.0\Chronometer.runtimeconfig.json
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\bin\Debug\net6.0\Chronometer.dll
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\bin\Debug\net6.0\Chronometer.pdb
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\Chronometer.csproj.AssemblyReference.cache
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\Chronometer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\Chronometer.AssemblyInfoInputs.cache
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\Chronometer.AssemblyInfo.cs
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\Chronometer.csproj.CoreCompileInputs.cache
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\Chronometer.dll
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\refint\Chronometer.dll
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\Chronometer.pdb
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\Chronometer.genruntimeconfig.cache
+C:\Users\l\source\repos\Csharp-Web\Chronometer\StartUp\obj\Debug\net6.0\ref\Chronometer.dll
