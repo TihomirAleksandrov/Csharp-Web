@@ -37,7 +37,7 @@ namespace SoftUniWebServer.Server
         {
         }
 
-        public void Start()
+        public async Task Start()
         {
             _serverListener.Start();
 
@@ -46,37 +46,40 @@ namespace SoftUniWebServer.Server
 
             while (true)
             {
-                var connection = _serverListener.AcceptTcpClient();
+                var connection = await _serverListener.AcceptTcpClientAsync();
 
-                var networkStream = connection.GetStream();
-
-                var requestText = this.ReadRequest(networkStream);
-                Console.WriteLine(requestText);
-
-                var request = Request.Parse(requestText);
-
-                var response = _routingTable.MatchRequest(request);
-
-                //Execute pre-render action for the response
-                if (response.PreRenderAction != null)
+                _ = Task.Run(async () =>
                 {
-                    response.PreRenderAction(request, response);
-                }
+                    var networkStream = connection.GetStream();
 
-                WriteResponse(networkStream, response);
+                    var requestText = await this.ReadRequest(networkStream);
+                    Console.WriteLine(requestText);
 
-                connection.Close();
+                    var request = Request.Parse(requestText);
+
+                    var response = _routingTable.MatchRequest(request);
+
+                    //Execute pre-render action for the response
+                    if (response.PreRenderAction != null)
+                    {
+                        response.PreRenderAction(request, response);
+                    }
+
+                    await WriteResponse(networkStream, response);
+
+                    connection.Close();
+                });
             }
         }
 
-        private void WriteResponse(NetworkStream networkStream, Response response)
+        private async Task WriteResponse(NetworkStream networkStream, Response response)
         {
             var responseBytes = Encoding.UTF8.GetBytes(response.ToString());
 
-            networkStream.Write(responseBytes);
+            await networkStream.WriteAsync(responseBytes);
         }
 
-        private string ReadRequest(NetworkStream networkStream)
+        private async Task<string> ReadRequest(NetworkStream networkStream)
         {
             var bufferLength = 1024;
             var buffer = new byte[bufferLength];
@@ -87,7 +90,7 @@ namespace SoftUniWebServer.Server
 
             do
             {
-                var bytesRead = networkStream.Read(buffer, 0, bufferLength);
+                var bytesRead = await networkStream.ReadAsync(buffer, 0, bufferLength);
 
                 totalBytes += bytesRead;
 
