@@ -1,0 +1,76 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home - SoftUni Judge</title>
+<meta name="description" content="Online system for programming competitions" />
+<link href="/Content/bootstrap/bootstrap-flatly.css" rel="stylesheet" />
+<link href="/Content/KendoUI/kendo.common.css" rel="stylesheet" />
+<link href="/Content/KendoUI/kendo.blueopal.min.css" rel="stylesheet" />
+<link href="/Content/site.css" rel="stylesheet" />
+<link href="/Content/css/home/index/home.css" rel="stylesheet" />
+<script src="/Dependencies/jquery/jquery.js"></script>
+<script src="/Dependencies/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js"></script>
+<script src="/Scripts/KendoUI/2014.3.1411/kendo.all.js"></script>
+<script src="/Scripts/KendoUI/2014.3.1411/kendo.aspnetmvc.js"></script>
+<script src="/Scripts/KendoUI/2014.3.1411/cultures/kendo.culture.bg.js"></script>
+<script src="/Scripts/KendoUI/2014.3.1411/cultures/kendo.culture.en-GB.js"></script>
+<script src="/Scripts/global.js"></script>
+</head>
+<body>
+
+<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-11309924-11', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<div class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a href="/" class="navbar-brand">SoftUni Judge</a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="dropdown">
+<a href="/Co
+----------------------------------------------------------------------------------------------------<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/c750e7666794be0fbf2f0bcb/script.js"></script>
+
+<title>Software Development Courses for Business and Individuals - SoftUni Global</title>
+<meta name="description" content="Franchise opportunities and software development courses for companies, educators, individuals - corporate training, teaching materials, self-paced programs" />
+<link rel="canonical" href="https://softuni.org/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Software Development Courses for Business and Individuals - SoftUni Global" />
+<meta property="og:description" content="Franchise opportunities and software development courses for companies, educators, individuals - corporate training, teaching materials, self-paced programs" />
+<meta property="og:url" content="https://softuni.org/" />
+<meta property="og:site_name" content="SoftUni Global" />
+<meta property="article:modified_time" content="2022-12-07T23:22:23+00:00" />
+<meta property="og:image" content="https://softuni.org/wp-content/uploads/2022/03/home1-banner2.jpg" />
+<meta property="og:image:width" content="1920" />
+<meta property="og:image:height" content="697" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="12 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://softuni.org/","url":"https://softuni.org/","name":"Software 
