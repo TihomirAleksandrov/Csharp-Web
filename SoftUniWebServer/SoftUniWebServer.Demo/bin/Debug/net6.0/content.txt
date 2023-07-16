@@ -71,6 +71,4 @@
 <meta property="og:image:height" content="697" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:label1" content="Est. reading time" />
-<meta name="twitter:data1" content="12 minutes" />
-<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://softuni.org/","url":"https://softuni.org/","name":"Software 
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://softuni.org/","url":"https://softuni.org/","name":"Software Development Courses for Business and Individuals - SoftUni Global","isPartOf":{"@id":"https://softuni.org/#web
