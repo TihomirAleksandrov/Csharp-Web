@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace SoftUniWebServer.Server.Responses
 {
-    public class Redirectresponse : Response
+    public class RedirectResponse : Response
     {
-        public Redirectresponse(string location)
+        public RedirectResponse(string location)
             : base(StatusCode.Found)
         {
             this.Headers.Add(Header.Location, location);

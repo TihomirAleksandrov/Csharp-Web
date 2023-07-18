@@ -11,45 +11,31 @@ namespace SoftUniWebServer.Server
 {
     public class RoutingTable : IRoutingTable
     {
-        private readonly Dictionary<Method, Dictionary<string, Response>> _routes;
+        private readonly Dictionary<Method, Dictionary<string, Func<Request, Response>>> _routes;
 
         public RoutingTable()
             => _routes = new()
             {
-                [Method.Get] = new(),
-                [Method.Post] = new(),
-                [Method.Put] = new(),
-                [Method.Delete] = new(),
+                [Method.Get] = new(StringComparer.InvariantCultureIgnoreCase),
+                [Method.Post] = new(StringComparer.InvariantCultureIgnoreCase),
+                [Method.Put] = new(StringComparer.InvariantCultureIgnoreCase),
+                [Method.Delete] = new(StringComparer.InvariantCultureIgnoreCase),
             };
 
 
-        public IRoutingTable Map(string url, Method method, Response response)
-            => method switch
-            {
-                Method.Get => this.MapGet(url, response),
-                Method.Post => this.MapPost(url, response),
-                _ => throw new InvalidOperationException($"Method '{method}' is not supported.")
-            };
-
-        public IRoutingTable MapGet(string url, Response response)
+        public IRoutingTable Map(Method method, string path, Func<Request, Response> responseFunction)
         {
-            Guard.AgainstNull(url, nameof(url));
-            Guard.AgainstNull(response, nameof(response));
+            Guard.AgainstNull(path, nameof(path));
+            Guard.AgainstNull(responseFunction, nameof(responseFunction));
 
-            _routes[Method.Get][url] = response;
+            _routes[method][path] = responseFunction;
 
             return this;
         }
 
-        public IRoutingTable MapPost(string url, Response response)
-        {
-            Guard.AgainstNull(url, nameof(url));
-            Guard.AgainstNull(response, nameof(response));
+        public IRoutingTable MapGet(string path, Func<Request, Response> responseFunction) => Map(Method.Get, path, responseFunction);
 
-            _routes[Method.Post][url] = response;
-
-            return this;
-        }
+        public IRoutingTable MapPost(string path, Func<Request, Response> responseFunction) => Map(Method.Post, path, responseFunction);
 
         public Response MatchRequest(Request request)
         {
@@ -61,7 +47,9 @@ namespace SoftUniWebServer.Server
                 return new NotFoundResponse();
             }
 
-            return _routes[requestMethod][requestUrl];
+            var responseFunction = _routes[requestMethod][requestUrl];
+
+            return responseFunction(request);
         }
     }
 }
