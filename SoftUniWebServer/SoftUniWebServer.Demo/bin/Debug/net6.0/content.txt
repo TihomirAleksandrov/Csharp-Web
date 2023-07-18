@@ -9,18 +9,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home - SoftUni Judge</title>
 <meta name="description" content="Online system for programming competitions" />
-<link href="/Content/bootstrap/bootstrap-flatly.css" rel="stylesheet" />
-<link href="/Content/KendoUI/kendo.common.css" rel="stylesheet" />
-<link href="/Content/KendoUI/kendo.blueopal.min.css" rel="stylesheet" />
-<link href="/Content/site.css" rel="stylesheet" />
-<link href="/Content/css/home/index/home.css" rel="stylesheet" />
-<script src="/Dependencies/jquery/jquery.js"></script>
-<script src="/Dependencies/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js"></script>
-<script src="/Scripts/KendoUI/2014.3.1411/kendo.all.js"></script>
-<script src="/Scripts/KendoUI/2014.3.1411/kendo.aspnetmvc.js"></script>
-<script src="/Scripts/KendoUI/2014.3.1411/cultures/kendo.culture.bg.js"></script>
-<script src="/Scripts/KendoUI/2014.3.1411/cultures/kendo.culture.en-GB.js"></script>
-<script src="/Scripts/global.js"></script>
+<link href="/Content/bootstrap/bootstrap?v=7EVAkqrqyPC0hRsMoFTAzVOblhjeHKzBszkwWmAAtAM1" rel="stylesheet" />
+<link href="/Content/KendoUI/kendo?v=wqkxBH72RBfdO9pjHK1yYc9KqNGxXwI0GjMKQ31bqyI1" rel="stylesheet" />
+<link href="/Content/styles?v=XYtuxo70EnFkEWwI0zdFDZdx5lV4ejKSsymPG9CxNQ41" rel="stylesheet" />
+<link href="/Content/home/index?v=VCFAZAhTp3rtDjneq-R1gDf8ugPvEYzrvNapwDmGoRw1" rel="stylesheet" />
+<script src="/bundles/jquery?v=emRf7jyCXRjntd-r9KgldtqdMIkBKOg7UyZbwv5gDrM1"></script>
+<script src="/bundles/kendo?v=5PZ_gYmHOqMcBFE2gZPTNrZMe9ThYyFOj0JkbeYtLJw1"></script>
+<script src="/bundles/global?v=TDz0-Dnl9dTImqsOC7mTgkUQGbzWYqfHblhMFinOlqI1"></script>
 </head>
 <body>
 
@@ -46,7 +41,12 @@
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav">
 <li class="dropdown">
-<a href="/Co
+<a href="/Contests" class="dropdown-toggle" data-toggle="dropdown">
+Contests
+<strong class="caret"></strong>
+</a>
+<ul class="dropdown-menu">
+<li><a href="/Contests/#!
 ----------------------------------------------------------------------------------------------------<!DOCTYPE html>
 <html lang="en-US">
 <head>
