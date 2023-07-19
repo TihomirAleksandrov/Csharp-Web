@@ -16,3 +16,7 @@ C:\Users\l\source\repos\Csharp-Web\SoftUniWebServer\SoftUniWebServer.Demo\obj\De
 C:\Users\l\source\repos\Csharp-Web\SoftUniWebServer\SoftUniWebServer.Demo\obj\Debug\net6.0\SoftUniWebServer.Demo.pdb
 C:\Users\l\source\repos\Csharp-Web\SoftUniWebServer\SoftUniWebServer.Demo\obj\Debug\net6.0\SoftUniWebServer.Demo.genruntimeconfig.cache
 C:\Users\l\source\repos\Csharp-Web\SoftUniWebServer\SoftUniWebServer.Demo\obj\Debug\net6.0\ref\SoftUniWebServer.Demo.dll
+C:\Users\l\source\repos\Csharp-Web\SoftUniWebServer\SoftUniWebServer.Demo\bin\Debug\net6.0\Views\Home\Content.cshtml
+C:\Users\l\source\repos\Csharp-Web\SoftUniWebServer\SoftUniWebServer.Demo\bin\Debug\net6.0\Views\Home\Html.cshtml
+C:\Users\l\source\repos\Csharp-Web\SoftUniWebServer\SoftUniWebServer.Demo\bin\Debug\net6.0\Views\Users\Login.cshtml
+C:\Users\l\source\repos\Csharp-Web\SoftUniWebServer\SoftUniWebServer.Demo\bin\Debug\net6.0\Views\Home\HtmlFormPost.cshtml
