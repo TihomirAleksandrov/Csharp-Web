@@ -1,6 +1,8 @@
 ﻿using SoftUniWebServer.Demo.Models;
+using SoftUniWebServer.Server.Attributes;
 using SoftUniWebServer.Server.Controllers;
 using SoftUniWebServer.Server.HTTP;
+using SoftUniWebServer.Server.Responses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,12 +22,16 @@ namespace SoftUniWebServer.Demo.Controllers
 
         }
 
+        [HttpGet]
         public Response Index() => Text("Hello from the server!");
+
+        public Response Student(string name, int age) => Text($"I'm {name} and I'm {age} years old.");
 
         public Response Redirect() => Redirect("https://softuni.org/");
 
         public Response Html() => View();
 
+        [HttpPost]
         public Response HtmlFormPost()
         {
             var name = Request.Form["Name"];
