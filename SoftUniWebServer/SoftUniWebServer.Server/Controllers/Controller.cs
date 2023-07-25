@@ -16,7 +16,7 @@ namespace SoftUniWebServer.Server.Controllers
             Request = request;
         }
 
-        protected Request Request { get; private init; }
+        protected Request Request { get; set; }
 
         protected Response Text(string text) => new TextResponse(text);
 
